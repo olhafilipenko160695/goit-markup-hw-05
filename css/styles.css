@@ -585,6 +585,30 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .overlay-text:hover{
 transform: translateY(0%);
 }
+
+.footer-subscribe{
+margin-left: 80px;
+}
+.footer-form-field{
+display: block;
+margin-top: 16px;
+}
+.footer-form-input{
+width: 264px;
+height: 40px;
+padding: 8px 16px;
+
+background-color: var(--background-dark);
+border-radius: 4px;
+    border: 1px solid var(--h1-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    color: var(--h1-color);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+}
 /*MODAL STYLES*/
 
 .backdrop {
