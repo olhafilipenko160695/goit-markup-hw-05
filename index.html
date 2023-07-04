@@ -493,22 +493,32 @@
           </svg>
         </button>
 
+        <!--FORM-->
+
         <strong class="modal-caption"
           >Leave your contacts and we will call you back</strong
         >
         <form class="moda-form" name="review_form" autocomplete="on" novalidate>
-          <label name="Name" class="modal-form-field">
+          <label class="modal-form-field">
             <span class="modal-form-label">Name</span>
-            <input
-              type="text"
-              name="review_form_name"
-              class="modal-form-input"
-            />
+            <input class="modal-form-input" type="text" name="user_name" />
           </label>
 
-          <input type="tel" name="review_form_tel" />
-          <input type="email" name="review_form_email" />
-          <input type="text" name="review_form_comment" />
+          <label class="modal-form-field">
+            <span class="modal-form-label">Phone</span>
+            <input class="modal-form-input" type="tel" name="uder_tel" />
+          </label>
+
+          <label class="modal-form-field">
+            <span class="modal-form-label">E-mail</span>
+            <input class="modal-form-input" type="email" name="uder_email" />
+          </label>
+
+          <label class="modal-form-field">
+            <span class="modal-form-label">Comment</span>
+            <input class="modal-form-input" type="text" name="uder_comment" />
+          </label>
+
           <input type="checkbox" name="review_form_comment" />
           <button type="submit">Send</button>
         </form>
