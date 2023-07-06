@@ -550,13 +550,24 @@
             <textarea
               class="modal-form-comment"
               name="user_comment"
-              cols-="4"
-              placeholder="Enter text"
-            >
+              rows="9"
+              placeholder="Enter text">
             </textarea>
           </label>
 
-          <input type="checkbox" name="review_form_comment" />
+          <label class="modal-form-agreement">
+            <input class="modal-form-checkbox visually-hidden" type="checkbox" name="review_form_comment"/>
+            <span class="modal-form-custom-checkbox">
+              <svg class="modal-form-checkbox-icon" width="10" height="8">
+                <use href="/images/icons.svg#icon-vector">
+                </use>
+              </svg>
+            </span>
+          <span class="modal-form-agreement-desc">
+            I accept the terms and conditions of the <a class="modal-form-link" hret="#">Privacy Policy</a>
+          </span>          
+        </label>
+
           <button class="butt-one" type="submit">Send</button>
         </form>
       </div>
