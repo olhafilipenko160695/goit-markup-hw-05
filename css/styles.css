@@ -675,9 +675,7 @@ transform: translateY(0%);
     position: absolute;
     top: 50%;
     left: 50%;
-    padding-left: 24px;
-    padding-top:72px;
-    padding-right: 24px;
+    padding: 72px 24px 24px 24px;
 
     transform: translateX(-50%) translateY(-50%);
 
