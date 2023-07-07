@@ -751,7 +751,7 @@ margin-bottom: 8px;
 .modal-form-field {
     display: block;
     position: relative;
-    margin-bottom: 8px;
+    
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -835,7 +835,10 @@ color: currentColor;
 .modal-form-comment:focus {
     border-color: var(--web-color);
 }
-
+.modal-container-agreement{
+    margin-bottom: 24px;
+    
+}
 .modal-form-agreement {
     display: flex;
     align-items: center;
