@@ -840,14 +840,8 @@ color: currentColor;
     display: flex;
     align-items: center;
     gap: 8px;
-}
-.modal-form-agreement {
-    display: flex;
-    align-items: center;
     margin-bottom: 24px;
-    gap: 8px;
 }
-
 
 .modal-form-custom-checkbox {
     display: flex;
@@ -860,8 +854,11 @@ color: currentColor;
     border-radius: 2px;
     border: 1px solid var(--background-dark, rgba(46, 47, 66, 0.40));
 }
+.modal-form-checkbox{
+    display: flex;
+}
 
-.modal-form-checkbox:checked + .modal-form-checkbox-icon {
+.modal-form-checkbox:checked + .modal-form-agreement-desc > .modal-agreement-text > .modal-form-checkbox-icon {
    border-color: var(--web-color);
    background-color: var(--web-color);
 }
@@ -879,7 +876,6 @@ color: currentColor;
 }
 .modal-form-agreement-desc {
     font-size: 12px;
-    
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--ligt-slate);
