@@ -836,7 +836,10 @@ color: currentColor;
     border-color: var(--web-color);
 }
 .modal-container-agreement{
-    margin-bottom: 24px;
+    
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 .modal-form-agreement {
     display: flex;
@@ -858,7 +861,7 @@ color: currentColor;
     border: 1px solid var(--background-dark, rgba(46, 47, 66, 0.40));
 }
 
-.modal-form-checkbox:checked + .modal-form-custom-checkbox {
+.modal-form-checkbox:checked + .modal-form-checkbox-icon {
    border-color: var(--web-color);
    background-color: var(--web-color);
 }
