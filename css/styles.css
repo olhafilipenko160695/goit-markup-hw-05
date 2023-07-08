@@ -839,15 +839,15 @@ color: currentColor;
     
     display: flex;
     align-items: center;
-    
+    flex-direction: column;
     margin-bottom: 24px;
 }
 
-.modal-form-custom-checkbox {
+.modal-form-checkbox-icon{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     width: 16px;
     height: 16px;
     
@@ -893,12 +893,6 @@ text-decoration: underline;
     align-items: center;
     justify-content: center;
     fill: transparent;
-}
-.modal-container-agreement:checked + .modal-form-checkbox > .modal-form-checkbox-icon{
-    background-color: var(--pressed-state);
-    border: none;
-    fill: var(--cloud-color);
-
 }
 .agreement-link-text{
     color: var(--web-color);
