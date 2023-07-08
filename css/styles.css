@@ -852,7 +852,7 @@ color: currentColor;
     height: 16px;
     
     border-radius: 2px;
-    border: 1px solid var(--background-dark, rgba(46, 47, 66, 0.40));
+    border: none;
 }
 .modal-form-checkbox{
     display: flex;
