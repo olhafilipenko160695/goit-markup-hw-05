@@ -864,14 +864,13 @@ color: currentColor;
 }
 
 .modal-form-checkbox:checked + .modal-form-agreement-desc .modal-agreement-text{
-    opacity: 1;
-    transform: scale(1);
+   
     fill: var(--cloud-color); 
     border: none;
     background-color: var(--pressed-state);
 }
+
 .modal-form-agreement-desc {
-    
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
