@@ -863,7 +863,7 @@ color: currentColor;
     transform: scale(0);
 }
 
-.modal-form-checkbox:checked + .modal-form-agreement-desc > .modal-agreement-text > .modal-form-checkbox-icon{
+.modal-form-checkbox:checked + .modal-form-agreement-desc .modal-agreement-text{
     opacity: 1;
     transform: scale(1);
     fill: var(--cloud-color); 
