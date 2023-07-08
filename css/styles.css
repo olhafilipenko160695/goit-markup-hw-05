@@ -867,7 +867,7 @@ color: currentColor;
     opacity: 1;
     transform: scale(1);
     fill: var(--cloud-color); 
-    border-color: var(--web-color);
+    border: none;
     background-color: var(--web-color);
 }
 .modal-form-agreement-desc {
