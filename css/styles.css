@@ -871,6 +871,7 @@ color: currentColor;
     background-color: var(--web-color);
 }
 .modal-form-agreement-desc {
+    
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -882,7 +883,7 @@ color: var(--web-color);
 text-decoration: underline;
 }
 .modal-agreement-text{
-    margin-left: 8px;
+    margin-right: 8px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
