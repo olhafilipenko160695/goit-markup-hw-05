@@ -858,11 +858,6 @@ color: currentColor;
     display: flex;
 }
 
-.modal-form-checkbox-icon {
-    opacity: 0;
-    transform: scale(0);
-}
-
 .modal-form-checkbox:checked + .modal-form-agreement-desc .modal-agreement-text{
    
     fill: var(--cloud-color); 
